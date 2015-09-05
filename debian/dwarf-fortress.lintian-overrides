@@ -1,0 +1,18 @@
+# Distributions of Dwarf Fortress must contain every file in the original
+# archive, so splitting Dwarf Fortress into an architecture-dependent and an
+# architecture-independent package would disallow distribution.  This isn’t an
+# issue in any case, though – Dwarf Fortress is only available for i386, so
+# there will only ever be one copy of Dwarf Fortress on the mirrors.
+dwarf-fortress: arch-dep-package-has-big-usr-share
+# Modified versions of Dwarf Fortress cannot be legally distributed, so removing
+# embedded libraries (or even splitting them into their own package) would
+# disallow distribution.
+dwarf-fortress: embedded-library *
+# Distributions of Dwarf Fortress must contain every file in the original
+# archive, so removing fonts (or even splitting them into their own package)
+# would disallow distribution.
+dwarf-fortress: font-in-non-font-package *
+# The source for Dwarf Fortress is not public, so it cannot be built using the
+# preferred hardening flags.
+dwarf-fortress: hardening-no-relro *
+dwarf-fortress: hardening-no-fortify-functions *
