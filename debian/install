@@ -1,0 +1,8 @@
+debian/bin/dwarf-fortress usr/games
+data usr/share/games/dwarf-fortress
+df usr/lib/games/dwarf-fortress
+g_src usr/src/dwarf-fortress
+libs usr/lib/games/dwarf-fortress
+raw usr/share/games/dwarf-fortress
+sdl usr/src/dwarf-fortress
+

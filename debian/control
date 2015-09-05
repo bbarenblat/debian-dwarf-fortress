@@ -1,0 +1,32 @@
+Source: dwarf-fortress
+Section: non-free/games
+Priority: optional
+Maintainer: Benjamin Barenblat <bbaren@mit.edu>
+Build-Depends:
+ debhelper (>= 9),
+ libgl1-mesa-glx | libgl1,
+ libglu1-mesa | libglu1,
+ libgtk2.0-0,
+ libsdl1.2debian,
+ libsdl-image1.2,
+ libsdl-ttf2.0-0
+Standards-Version: 3.9.6
+Homepage: http://www.bay12games.com/dwarves/
+Vcs-Git: git://benjamin.barenblat.name/debian-dwarf-fortress.git
+Vcs-Browser: https://benjamin.barenblat.name/gitweb/?p=debian-dwarf-fortress.git;a=summary
+
+Package: dwarf-fortress
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: control a band of dwarves as they establish a new outpost
+ Slaves to Armok: God of Blood Chapter II: Dwarf Fortress is an absurdly
+ detailed indie roguelike which takes place in a massive, procedurally
+ generated, open world.  Take command of a band of dwarves, guiding them as they
+ mine, farm, and defend a new home, or become an adventurer and seek your
+ fortune.
+ .
+ World detail cannot be underestimated.  History, NPC behaviors, terrain,
+ weather, mineral deposits, and much more are generated anew by Dwarf Fortress’s
+ engine before the game begins and rendered in excruciating detail using an
+ extended ASCII character set drawn with OpenGL.  New features are added all the
+ time.

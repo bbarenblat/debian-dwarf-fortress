@@ -1,0 +1,31 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+%:
+	dh $@
+
+# Remove empty directories.
+.PHONY: override_dh_install
+override_dh_install:
+	dh_install
+	find debian/dwarf-fortress/usr/share/games/dwarf-fortress -type d -empty -delete
+
+# Fix permissions manually beyond what dh_fixperms(1) will do.
+.PHONY: override_dh_fixperms
+override_dh_fixperms:
+	dh_fixperms
+	find debian/dwarf-fortress/usr/share/games/dwarf-fortress -type f -exec chmod 0644 {} +
+	find debian/dwarf-fortress/usr/src/dwarf-fortress -type f -exec chmod 0644 {} +
+
+# Don't run dh_makeshlibs(1).  This package doesn't actually install any
+# user-visible libraries.
+.PHONY: override_dh_makeshlibs
+override_dh_makeshlibs:
+	true
+
+# Prevent dh_shlibdeps(1) from trying to objdump 'language_ELF.txt', which
+# despite its name, is not actually an ELF file but rather a dictionary for
+# Elvish.
+.PHONY: override_dh_shlibdeps
+override_dh_shlibdeps:
+	dh_shlibdeps --exclude=.txt

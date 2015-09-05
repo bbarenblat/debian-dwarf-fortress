@@ -1,0 +1,94 @@
+Source: dwarf-fortress
+Section: non-free/games
+Priority: optional
+Maintainer: Benjamin Barenblat <bbaren@mit.edu>
+Build-Depends:
+ debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://www.bay12games.com/dwarves/
+Vcs-Git: git://benjamin.barenblat.name/debian-dwarf-fortress.git
+Vcs-Browser: https://benjamin.barenblat.name/gitweb/?p=debian-dwarf-fortress.git;a=summary
+
+Package: dwarf-fortress
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: control a band of dwarves as they establish a new outpost
+ Slaves to Armok: God of Blood Chapter II: Dwarf Fortress is an absurdly
+ detailed indie roguelike in which players control a dwarven outpost or an
+ adventurer in a randomly generated, persistent world.
+ .
+ Although Dwarf Fortress is still in a work in progress, many features have
+ already been implemented.
+ .
+   • The world is randomly generated with distinct civilizations spanning
+     centuries of detailed history, hundreds of towns, caves and regions with
+     various wildlife.
+ .
+   • The world persists as long as you like, over many games, recording
+     historical events and tracking changes.
+ .
+   • Command your dwarves as they search for wealth in the mountain.
+       ◦ Craft treasures and furniture from many materials and improve these
+         objects with precious metals, jewels and more.
+       ◦ Defend yourself against attacks from hostile civilizations, the
+         wilderness, the depths, the dead and creatures of the night.
+       ◦ Trade for all manner of exotic goods with your neighbors.
+       ◦ Establish a barony and support the nobility as they make demands of
+         your populace.
+       ◦ Keep your dwarves happy and read their thoughts as they work and relax.
+       ◦ Z coordinate allows you to dig out fortresses with multiple levels.
+         Build towers or conquer the underworld.
+       ◦ Build floodgates to divert water for farming or to drown your
+         adversaries … and don’t forget the magma!
+       ◦ Surgery, sutures, splints, crutches and more: care for your wounded
+         dwarves instead of leaving them to fend for themselves.
+       ◦ Retire your fortress, then unretire it after spending time playing
+         other roles in the world.
+       ◦ Honey, wax, pottery, windmills, waterwheels, soap, plaster, wool, eggs,
+         dyes, cheese, glass, animal training, and much, much more …
+ .
+   • Play an adventurer and explore, quest for glory or seek vengeance.
+       ◦ Meet adversaries from previous games.
+       ◦ Recruit people to come with you on your journey.
+       ◦ Explore without cumbersome plot restrictions – thriving capitals,
+         villages, catacombs, labyrinths, bandit camps, caves and more!
+       ◦ Seamlessly wander the world or travel more rapidly on the region map
+         and in underground tunnels.
+       ◦ Travel by day and search for a place to shelter as night falls.
+       ◦ Listen to rumors and help out town and civilization leaders.
+       ◦ Earn a reputation as a hero, friend, soldier, enemy, thug, etc. with
+         the various civilizations in the world.
+       ◦ Retire and meet your old characters.  Bring them along on an adventure
+         with a new character or reactivate them and play directly.
+       ◦ Z coordinate allows you to move between twisting underground caverns
+         and scale structures, fighting adversaries above and below.  Climb, jump
+         and sprint!
+       ◦ Stealth system with vision arcs which also respects vegetation density
+         and other factors.
+       ◦ Use signs like shoe impressions and animal tracks to hunt and avoid
+         danger.
+       ◦ Steal a mummy’s treasure or learn the secrets of life and death at a
+         necromancer’s tower.
+       ◦ Visit your retired fortresses and ask your dwarves to join you on
+         adventures.
+ .
+   • The combat model uses skills, body parts, individual tissues, material
+     properties, aimed attacks, wrestling, one-time opportunities, charging and
+     dodging between squares, bleeding, pain, nausea, various poison effects and
+     much more.  Attacks and other movements extend over several instants,
+     allowing you to deliberately catch enemy blows or plan your counter-attack.
+ .
+   • Hundreds of animals and other monsters, including many that are randomly
+     generated for each world.
+ .
+   • Multi-tile climbable trees and many, many kinds of plants.  Fruit, flowers
+     and falling leaves.
+ .
+   • A dynamic weather model tracks wind, humidity and air masses to create
+     fronts, clouds, rain storms and blizzards.
+ .
+   • Over two hundred rock and mineral types are incorporated into the world,
+     placed in their proper geological environments.
+ .
+   • Extended ASCII character set rendered in 16 colors (including black) as
+     well as 8 background colors (including black).

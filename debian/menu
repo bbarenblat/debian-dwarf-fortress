@@ -1,0 +1,2 @@
+?package(dwarf-fortress):needs="X11" section="Games/Adventure"\
+  title="Dwarf Fortress" command="/usr/games/dwarf-fortress"

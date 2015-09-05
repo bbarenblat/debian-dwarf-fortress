@@ -1,0 +1,55 @@
+.\" © 2013, 2015 Benjamin Barenblat
+.\"
+.\" Licensed under the Apache License, Version 2.0 (the "License"); you may not
+.\" use this file except in compliance with the License.  You may obtain a copy
+.\" of the License at
+.\"
+.\"     http://www.apache.org/licenses/LICENSE-2.0
+.\"
+.\" Unless required by applicable law or agreed to in writing, software
+.\" distributed under the License is distributed on an "AS IS" BASIS, W.TPOUT
+.\" WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+.\" License for the specific language governing permissions and limitations
+.\" under the License.
+.pc
+.TH DWARF-FORTRESS 6 "2015-01-07" "0.40.24" "Dwarf Fortress"
+.SH NAME
+dwarf-fortress \- control a band of dwarves as they establish an outpost
+.SH SYNOPSIS
+.B dwarf-fortress [\| -gen
+.I id-number seed world-gen-param-title
+\|]
+.SH DESCRIPTION
+.I Slaves to Armok: God of Blood Chapter II: Dwarf Fortress
+is an absurdly detailed indie roguelike which takes place in a massive, procedurally generated, open world.
+Take command of a band of dwarves, guiding them as they mine, farm, and defend a new home, or become an adventurer and seek your fortune.
+.PP
+World detail in
+.I Dwarf Fortress
+cannot be underestimated.
+History, NPC behaviors, terrain, weather, mineral deposits, and much more are generated anew by Dwarf Fortress's engine before the game begins and rendered in excruciating detail using an extended ASCII character set drawn with OpenGL.
+New features are added all the time.
+.SH OPTIONS
+.B dwarf-fortress
+is an interactive program, and most players will run it without arguments.
+However, advanced users can batch-generate worlds using the
+.B -gen
+option, specifying a world ID number, an engine seed (or
+.I RANDOM
+to use a random seed), and parameters to the generation engine.
+.SH ENVIRONMENT
+.B dwarf-fortress
+looks for user saves and movies in the directory described by
+.BR DWARF_FORTRESS_DATA_HOME .
+This defaults to
+.BR $XDG_DATA_HOME/dwarf-fortress .
+As
+.I Dwarf Fortress
+is alpha software, you are strongly encouraged to back up this directory.
+.SH COPYRIGHT
+.I Dwarf Fortress
+is copyright \(co 2002-2015 Tarn Adams.
+All rights are reserved, except redistribution of the game binary and accompanying files, unmodified, free of charge, is permitted.
+If you'd like to distribute a modified version of the game or portion of the archive, please contact Tarn Adams at <toadyone@bay12games.com>.
+.PP
+This manual page is copyright \(co 2013, 2015 Benjamin Barenblat and licensed under the Apache License, Version 2.0.

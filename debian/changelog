@@ -1,0 +1,5 @@
+dwarf-fortress (0.40.24-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #588377)
+
+ -- Benjamin Barenblat <bbaren@mit.edu>  Sat, 05 Sep 2015 09:37:23 -0400

@@ -1,0 +1,50 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Dwarf Fortress
+Upstream-Contact: Tarn Adams <toadyone@bay12games.com>
+Source: http://www.bay12games.com/dwarves/
+Disclaimer:
+ This package is not part of the Debian distribution.  It is provided in
+ the non-free archive area as a convenience to Debian users.
+ .
+ The contents of this package cannot be distributed as part of the Debian
+ distribution because no source code is provided and the package license
+ permits only non-commercial, unmodified distribution.
+Copyright: 2002-2015 Tarn Adams <toadyone@bay12games.com>
+License: Dwarf-Fortress
+
+Files: *
+Copyright: 2002-2015 Tarn Adams <toadyone@bay12games.com>
+License: Dwarf-Fortress
+
+Files: debian/*
+Copyright: 2011-2012 Beren Minor <beren.minor+debian@gmail.com>
+           2015 Benjamin Barenblat <bbaren@mit.edu>
+License: GPL-3+
+
+License: Dwarf-Fortress
+ All rights are retained by Tarn Adams, save the following: you may redistribute
+ the binary and accompanying files, unmodified, provided you do so free of
+ charge.  If you'd like to distribute a modified version of the game or portion
+ of the archive and are worried about copyright infringement, please contact
+ Tarn Adams at toadyone@bay12games.com.
+ .
+ This software is still in development, and this means that there are going to
+ be problems, including serious problems that, however unlikely, might damage
+ your system or the information stored on it.  Please be aware of this before
+ playing
+
+License: GPL-3+
+ This package is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License as published by the Free Software
+ Foundation; either version 3 of the License, or (at your option) any later
+ version.
+ .
+ This package is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along with
+ this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".
